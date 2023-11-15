@@ -60,6 +60,7 @@ body{
 
 .site-logo-img{
   margin-right: 16px;
+  border-radius: 50%;
 }
 
 /* SITENAV */
@@ -117,6 +118,41 @@ body{
 
 .main-link:active{
   background-color: #DE2E54;
+  color: #fff;
+  opacity: 0.6;
+}
+
+/* SITE-FOOTER */
+.site-footer{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+}
+
+.site-footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo-site-footer{
+  color: #fff;
+}
+
+.site-logo-site-footer:active{
+  color: #fff;
+  opacity: 0.6;
+}
+
+.sitenav-site-footer .sitenav-link{
+  color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover{
+  color: #DE2E54;
+}
+
+.sitenav-site-footer .sitenav-link:active{
   color: #fff;
   opacity: 0.6;
 }
